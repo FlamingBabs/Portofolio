@@ -1,0 +1,43 @@
+/* Skill.css */
+
+.skill-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+  }
+  
+  .skill-title {
+    color: white;
+    margin-bottom: 20px;
+    z-index: 1; /* Ensure the title is above the square */
+  }
+  
+  .square {
+    width: 450px; 
+    height: 150px; 
+    background-color: rgba(0, 0, 0, 0.5); /* Black with transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .skill-list {
+    display: flex;
+    color: white; /* Change text color to white for better contrast */
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skill-list span {
+    margin: 0 5px; 
+  }
+  
+  .separator {
+    color: gray;
+  }
+  

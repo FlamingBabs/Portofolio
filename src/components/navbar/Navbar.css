@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Pro&display=swap');
+
+.navbar {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    z-index: 20; /* Ensure the navbar is above other content */
+    justify-content: flex-end; /* Align items to the right */
+    width: 100%; /* Make sure it spans the full width */
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    max-width: 1500px;
+    position: relative;
+}
+
+.nav-logo {
+    color: #F7E7CE; /* White text color for dark mode */
+    align-items: center;
+    margin-right: 20px; /* Adjust margin to the right */
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Sofia Pro', sans-serif; /* Apply the new font */
+}
+
+.nav-logo .icon {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 16px;
+}
+
+.logo-img {
+    max-width: 6.5rem;
+    max-height: 9rem;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: right; /* Align text to the right */
+    align-items: right; /* Align items to the right */
+}
+
+.nav-links {
+    color: #F7E7CE; /* White text color for dark mode */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+    font-family: 'Sofia Pro', sans-serif; /* Apply the new font */
+}
+
+.nav-item {
+    line-height: 40px;
+    margin-right: 1rem;
+}
+
+.nav-item:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+    font-weight: 1000;
+}
+
+.nav-item:hover:after {
+    width: 100%;
+    background: #F7E7CE; /* White color for the underline on hover */
+}
+
+.nav-item .active {
+    color: white; /* White text color for active item */
+    border-bottom: 2px solid #F7E7CE; /* White color for the active item underline */
+}
+
+.nav-icon {
+    display: none;
+    color: #f5b921;
+}
+
+.nav-icon .icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+    .nav-menu {
+        padding: 0%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 6vh;
+        right: -100%; /* Adjust to the right */
+        opacity: 1;
+        transition: all 1s ease;
+    }
+
+    .nav-menu.active {
+        display: flex;
+        background: #000000;
+        right: 0px; /* Adjust to the right */
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-item .active {
+        color: #ffffff; /* White text color for active item */
+        border: none;
+    }
+
+    .nav-links {
+        width: 100%;
+        display: table;
+    }
+
+    .nav-logo .icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .nav-icon {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-100%, -50%);
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+        color: #ffdd40;
+    }
+}

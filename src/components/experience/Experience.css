@@ -1,0 +1,41 @@
+/* Experience.css */
+
+.experience-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .company-logo {
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the given dimensions */
+    margin-right: 20px;
+  }
+  
+  .experience-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .details-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Black with transparency */
+    padding: 20px;
+    color: white;
+    text-align: left;
+    width: 350px;
+  }
+  
+  .details-box h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .details-box p {
+    margin: 5px 0;
+  }
+  
