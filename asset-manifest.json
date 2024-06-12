@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portofolio/static/css/main.e974f3b9.css",
+    "main.js": "/Portofolio/static/js/main.8353a856.js",
+    "static/js/453.6a54098e.chunk.js": "/Portofolio/static/js/453.6a54098e.chunk.js",
+    "static/media/pinqnetworx.png": "/Portofolio/static/media/pinqnetworx.e2758fd741e114155f84.png",
+    "static/media/anabelproj.png": "/Portofolio/static/media/anabelproj.1ccf915dfe4f8a8aa36f.png",
+    "static/media/CV.pdf": "/Portofolio/static/media/CV.e1cc08ccc4616e1e767f.pdf",
+    "static/media/bg.jpeg": "/Portofolio/static/media/bg.5103964a7fad6f8e8c7b.jpeg",
+    "static/media/matrixnet.jpeg": "/Portofolio/static/media/matrixnet.4a30c2013b5182ff68e3.jpeg",
+    "index.html": "/Portofolio/index.html",
+    "main.e974f3b9.css.map": "/Portofolio/static/css/main.e974f3b9.css.map",
+    "main.8353a856.js.map": "/Portofolio/static/js/main.8353a856.js.map",
+    "453.6a54098e.chunk.js.map": "/Portofolio/static/js/453.6a54098e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e974f3b9.css",
+    "static/js/main.8353a856.js"
+  ]
+}
